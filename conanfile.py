@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostAssertConan(ConanFile):
     name = "boost_assert"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-assert"
+    url = "https://github.com/bincrafters/conan-boost_assert"
 
     lib_short_names = ["assert"]
     is_header_only = True
