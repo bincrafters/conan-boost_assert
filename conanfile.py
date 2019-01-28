@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/stable")
 
 class BoostAssertConan(base.BoostBaseConan):
     name = "boost_assert"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_assert"
     lib_short_names = ["assert"]
     header_only_libs = ["assert"]
