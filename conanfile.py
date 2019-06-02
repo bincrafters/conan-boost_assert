@@ -4,12 +4,9 @@
 from conans import python_requires
 
 
-base = python_requires("boost_base/1.69.0@bincrafters/testing")
+base = python_requires("boost_base/2.0.0@bincrafters/testing")
+
 
 class BoostAssertConan(base.BoostBaseConan):
     name = "boost_assert"
-    version = "1.69.0"
-    url = "https://github.com/bincrafters/conan-boost_assert"
-    lib_short_names = ["assert"]
-    header_only_libs = ["assert"]
-    b2_requires = ["boost_config"]
+    version = "1.70.0"
